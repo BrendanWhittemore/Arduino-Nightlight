@@ -11,7 +11,7 @@ void loop() {
 
     delay(5);
 
-    if (x < 750) {
+    if (x < 500) {
         digitalWrite(led, HIGH);
     } else {
         digitalWrite(led, LOW);
